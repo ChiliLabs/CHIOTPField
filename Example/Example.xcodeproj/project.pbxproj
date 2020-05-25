@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4975766B247804660046D443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975766A247804660046D443 /* AppDelegate.swift */; };
+		4975766F247804660046D443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975766E247804660046D443 /* ViewController.swift */; };
+		49757672247804660046D443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49757670247804660046D443 /* Main.storyboard */; };
+		49757674247804670046D443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49757673247804670046D443 /* Assets.xcassets */; };
+		49757677247804670046D443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49757675247804670046D443 /* LaunchScreen.storyboard */; };
+		4975768E247804850046D443 /* CHIOTPFieldThreeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49757680247804850046D443 /* CHIOTPFieldThreeLabel.swift */; };
+		4975768F247804850046D443 /* CHIOTPFieldThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49757681247804850046D443 /* CHIOTPFieldThree.swift */; };
+		49757690247804850046D443 /* CHIOTPFieldOneLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49757683247804850046D443 /* CHIOTPFieldOneLabel.swift */; };
+		49757691247804850046D443 /* CHIOTPFieldOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49757684247804850046D443 /* CHIOTPFieldOne.swift */; };
+		49757692247804850046D443 /* CHIOTPFieldTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49757686247804850046D443 /* CHIOTPFieldTwo.swift */; };
+		49757693247804850046D443 /* CHIOTPFieldTwoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49757687247804850046D443 /* CHIOTPFieldTwoLabel.swift */; };
+		49757694247804850046D443 /* CHIOTPFieldFourLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49757689247804850046D443 /* CHIOTPFieldFourLabel.swift */; };
+		49757695247804850046D443 /* CHIOTPFieldFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975768A247804850046D443 /* CHIOTPFieldFour.swift */; };
+		49757696247804850046D443 /* OTPLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975768C247804850046D443 /* OTPLabel.swift */; };
+		49757697247804850046D443 /* CHIOTPField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975768D247804850046D443 /* CHIOTPField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49757667247804660046D443 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4975766A247804660046D443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4975766E247804660046D443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49757671247804660046D443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49757673247804670046D443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49757676247804670046D443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49757678247804670046D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49757680247804850046D443 /* CHIOTPFieldThreeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldThreeLabel.swift; path = ../Sources/CHIOTPFieldThree/CHIOTPFieldThreeLabel.swift; sourceTree = SOURCE_ROOT; };
+		49757681247804850046D443 /* CHIOTPFieldThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CHIOTPFieldThree.swift; path = ../Sources/CHIOTPFieldThree/CHIOTPFieldThree.swift; sourceTree = SOURCE_ROOT; };
+		49757683247804850046D443 /* CHIOTPFieldOneLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIOTPFieldOneLabel.swift; sourceTree = "<group>"; };
+		49757684247804850046D443 /* CHIOTPFieldOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIOTPFieldOne.swift; sourceTree = "<group>"; };
+		49757686247804850046D443 /* CHIOTPFieldTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIOTPFieldTwo.swift; sourceTree = "<group>"; };
+		49757687247804850046D443 /* CHIOTPFieldTwoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIOTPFieldTwoLabel.swift; sourceTree = "<group>"; };
+		49757689247804850046D443 /* CHIOTPFieldFourLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIOTPFieldFourLabel.swift; sourceTree = "<group>"; };
+		4975768A247804850046D443 /* CHIOTPFieldFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIOTPFieldFour.swift; sourceTree = "<group>"; };
+		4975768C247804850046D443 /* OTPLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPLabel.swift; sourceTree = "<group>"; };
+		4975768D247804850046D443 /* CHIOTPField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIOTPField.swift; sourceTree = "<group>"; };
+		49757698247BC9BE0046D443 /* CHIOTPField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHIOTPField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49757664247804660046D443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4975765E247804660046D443 = {
+			isa = PBXGroup;
+			children = (
+				49757669247804660046D443 /* Example */,
+				49757668247804660046D443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49757668247804660046D443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49757667247804660046D443 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49757669247804660046D443 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4975767E247804850046D443 /* Sources */,
+				4975766A247804660046D443 /* AppDelegate.swift */,
+				4975766E247804660046D443 /* ViewController.swift */,
+				49757670247804660046D443 /* Main.storyboard */,
+				49757673247804670046D443 /* Assets.xcassets */,
+				49757675247804670046D443 /* LaunchScreen.storyboard */,
+				49757678247804670046D443 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		4975767E247804850046D443 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4975767F247804850046D443 /* CHIOTPFieldThree */,
+				49757682247804850046D443 /* CHIOTPFieldOne */,
+				49757685247804850046D443 /* CHIOTPFieldTwo */,
+				49757688247804850046D443 /* CHIOTPFieldFour */,
+				4975768B247804850046D443 /* Base */,
+				49757698247BC9BE0046D443 /* CHIOTPField.h */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		4975767F247804850046D443 /* CHIOTPFieldThree */ = {
+			isa = PBXGroup;
+			children = (
+				49757680247804850046D443 /* CHIOTPFieldThreeLabel.swift */,
+				49757681247804850046D443 /* CHIOTPFieldThree.swift */,
+			);
+			name = CHIOTPFieldThree;
+			path = ../Sources/CHIOTPFieldThree;
+			sourceTree = SOURCE_ROOT;
+		};
+		49757682247804850046D443 /* CHIOTPFieldOne */ = {
+			isa = PBXGroup;
+			children = (
+				49757683247804850046D443 /* CHIOTPFieldOneLabel.swift */,
+				49757684247804850046D443 /* CHIOTPFieldOne.swift */,
+			);
+			name = CHIOTPFieldOne;
+			path = ../Sources/CHIOTPFieldOne;
+			sourceTree = SOURCE_ROOT;
+		};
+		49757685247804850046D443 /* CHIOTPFieldTwo */ = {
+			isa = PBXGroup;
+			children = (
+				49757686247804850046D443 /* CHIOTPFieldTwo.swift */,
+				49757687247804850046D443 /* CHIOTPFieldTwoLabel.swift */,
+			);
+			name = CHIOTPFieldTwo;
+			path = ../Sources/CHIOTPFieldTwo;
+			sourceTree = SOURCE_ROOT;
+		};
+		49757688247804850046D443 /* CHIOTPFieldFour */ = {
+			isa = PBXGroup;
+			children = (
+				49757689247804850046D443 /* CHIOTPFieldFourLabel.swift */,
+				4975768A247804850046D443 /* CHIOTPFieldFour.swift */,
+			);
+			name = CHIOTPFieldFour;
+			path = ../Sources/CHIOTPFieldFour;
+			sourceTree = SOURCE_ROOT;
+		};
+		4975768B247804850046D443 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4975768C247804850046D443 /* OTPLabel.swift */,
+				4975768D247804850046D443 /* CHIOTPField.swift */,
+			);
+			name = Base;
+			path = ../Sources/Base;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49757666247804660046D443 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4975767B247804670046D443 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				49757663247804660046D443 /* Sources */,
+				49757664247804660046D443 /* Frameworks */,
+				49757665247804660046D443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 49757667247804660046D443 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4975765F247804660046D443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Chili Labs";
+				TargetAttributes = {
+					49757666247804660046D443 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 49757662247804660046D443 /* Build configuration list for PBXProject "Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4975765E247804660046D443;
+			productRefGroup = 49757668247804660046D443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49757666247804660046D443 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49757665247804660046D443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49757677247804670046D443 /* LaunchScreen.storyboard in Resources */,
+				49757674247804670046D443 /* Assets.xcassets in Resources */,
+				49757672247804660046D443 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49757663247804660046D443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49757696247804850046D443 /* OTPLabel.swift in Sources */,
+				4975766F247804660046D443 /* ViewController.swift in Sources */,
+				49757693247804850046D443 /* CHIOTPFieldTwoLabel.swift in Sources */,
+				4975768E247804850046D443 /* CHIOTPFieldThreeLabel.swift in Sources */,
+				49757697247804850046D443 /* CHIOTPField.swift in Sources */,
+				49757695247804850046D443 /* CHIOTPFieldFour.swift in Sources */,
+				4975768F247804850046D443 /* CHIOTPFieldThree.swift in Sources */,
+				49757694247804850046D443 /* CHIOTPFieldFourLabel.swift in Sources */,
+				4975766B247804660046D443 /* AppDelegate.swift in Sources */,
+				49757692247804850046D443 /* CHIOTPFieldTwo.swift in Sources */,
+				49757691247804850046D443 /* CHIOTPFieldOne.swift in Sources */,
+				49757690247804850046D443 /* CHIOTPFieldOneLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49757670247804660046D443 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49757671247804660046D443 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49757675247804670046D443 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49757676247804670046D443 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49757679247804670046D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4975767A247804670046D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4975767C247804670046D443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5NY3YD66;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chililabs.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4975767D247804670046D443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J5NY3YD66;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.chililabs.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49757662247804660046D443 /* Build configuration list for PBXProject "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49757679247804670046D443 /* Debug */,
+				4975767A247804670046D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4975767B247804670046D443 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4975767C247804670046D443 /* Debug */,
+				4975767D247804670046D443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4975765F247804660046D443 /* Project object */;
+}
