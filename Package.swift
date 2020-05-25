@@ -12,30 +12,9 @@ let package = Package(
         .library(
             name: "CHIOTPField",
             targets: ["CHIOTPField"]
-        ),
-        .library(
-            name: "CHIOTPFieldOne",
-            targets: ["CHIOTPFieldOne"]
-        ),
-        .library(
-            name: "CHIOTPFieldTwo",
-            targets: ["CHIOTPFieldTwo"]
-        ),
-        .library(
-            name: "CHIOTPFieldThree",
-            targets: ["CHIOTPFieldThree"]
-        ),
-        .library(
-            name: "CHIOTPFieldFour",
-            targets: ["CHIOTPFieldFour"]
         )
     ],
     targets: [
-        .target(name: "CHIOTPField", dependencies: [], path: "Sources"),
-        .target(name: "Base", dependencies: [], path: "Sources/Base"),
-        .target(name: "CHIOTPFieldOne", dependencies: ["Base"], path: "Sources/CHIOTPFieldOne"),
-        .target(name: "CHIOTPFieldTwo", dependencies: ["Base"], path: "Sources/CHIOTPFieldTwo"),
-        .target(name: "CHIOTPFieldThree", dependencies: ["Base"], path: "Sources/CHIOTPFieldThree"),
-        .target(name: "CHIOTPFieldFour", dependencies: ["Base"], path: "Sources/CHIOTPFieldFour")
+        .target(name: "CHIOTPField", dependencies: [], path: "Sources")
     ]
 )
