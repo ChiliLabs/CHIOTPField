@@ -31,7 +31,7 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "CHIOTPField"),
+        .target(name: "CHIOTPField", dependencies: [], path: "Sources"),
         .target(name: "Base", dependencies: [], path: "Sources/Base"),
         .target(name: "CHIOTPFieldOne", dependencies: ["Base"], path: "Sources/CHIOTPFieldOne"),
         .target(name: "CHIOTPFieldTwo", dependencies: ["Base"], path: "Sources/CHIOTPFieldTwo"),
