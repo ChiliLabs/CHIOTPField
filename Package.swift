@@ -15,6 +15,12 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "CHIOTPField", dependencies: [], path: "Sources")
+        .target(name: "CHIOTPField",
+                dependencies: [],
+                path: "Sources",
+                exclude: [
+                    "CHIOTPField.podspec",
+                    "Example"
+        ])
     ]
 )
