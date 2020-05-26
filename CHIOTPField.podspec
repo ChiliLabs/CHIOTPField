@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary          = 'CHIOTPField is a set of cool animated text fields for One-Time PIN code that are used to verify a phone number.'
   
     s.ios.deployment_target = '10.0'
-    s.tvos.deployment_target = '10.0'
+    s.tvos.deployment_target = '12.0'
   
     s.homepage         = 'https://github.com/ChiliLabs/CHIOTPField'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
