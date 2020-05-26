@@ -52,7 +52,7 @@ final public class CHIOTPFieldFour: CHIOTPField<CHIOTPFieldFourLabel> {
         didSet { redraw() }
     }
 
-    //corner radius the box
+    //corner radius of the box
     @IBInspectable
     public var cornerRadius: CGFloat = 0 {
         didSet { redraw() }

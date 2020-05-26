@@ -40,7 +40,7 @@ final public class CHIOTPFieldThree: CHIOTPField<CHIOTPFieldThreeLabel> {
         didSet { redraw() }
     }
 
-    //bbottom border height
+    //bottom border height
     @IBInspectable
     public var borderHeight: CGFloat = 2 {
         didSet { redraw() }
