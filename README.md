@@ -51,8 +51,14 @@ field.numberOfDigits = 4
 field.cornerRadius = 4
 ```
 
+### Text Color
+Just change the text color for textfield as you normaly do.
+
+### Caret color
+Tint color is responsible for caret color. If you want to hide a caret, just set the color to clear.
+
 ## OTP Fields
-### OTP Field One
+### OTPFieldOne
 <img src="Gif/field_1.gif" width="320" height="63" />
 
 ``` swift
@@ -67,7 +73,7 @@ var boxPlaceholder: String? // placeholder text
 var boxPlaceholderColor: UIColor? // placeholder text color
 ```
 
-### OTP Field Two
+### OTPFieldTwo
 <img src="Gif/field_2_1.gif" width="320" height="58" />
 <img src="Gif/field_2_2.gif" width="320" height="61" />
 
@@ -85,7 +91,7 @@ var boxPlaceholder: String? // placeholder text
 var boxPlaceholderColor: UIColor? // placeholder text color
 ```
 
-### OTP Field Three
+### OTPFieldThree
 <img src="Gif/field_3.gif" width="320" height="67" />
 
 ``` swift
@@ -97,7 +103,7 @@ var borderCornerRadius: CGFloat // bottom border radius
 var dotRadius: CGFloat // dot radius when text is entered
 ```
 
-### OTP Field Four
+### OTPFieldFour
 <img src="Gif/field_4.gif" width="320" height="73" />
 
 ``` swift
@@ -110,4 +116,4 @@ var cornerRadius: CGFloat // corner radius of the box
 ```
 
 ## License
-CHIPageControl is released under the MIT license. See [LICENSE](./LICENSE) for details.
+CHIOTPField is released under the MIT license. See [LICENSE](./LICENSE) for details.
