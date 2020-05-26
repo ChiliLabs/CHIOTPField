@@ -75,9 +75,7 @@ final public class CHIOTPFieldThreeLabel: UIView, POTPLabel {
         fatalError("init(coder:) has not been implemented")
     }
 
-    public func updateState() {
-        self.stopAnimation()
-    }
+    public func updateState() {}
 
     public override func layoutSubviews() {
         super.layoutSubviews()
