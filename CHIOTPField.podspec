@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'CHIOTPField'
-    s.version          = '0.1'
+    s.version          = '0.1.0'
     s.summary          = 'CHIOTPField is a set of cool animated text fields for One-Time PIN code that are used to verify a phone number.'
   
     s.ios.deployment_target = '10.0'
