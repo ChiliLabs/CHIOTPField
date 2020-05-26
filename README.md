@@ -6,7 +6,7 @@ Made with ❤️ by [Chili Labs](https://chililabs.io).
 
 ## Overview
 
-<img src="Gif/field_1.gif" width="640" height="127">
+<img src="Gif/preview.gif" width="500" height="164">
 
 ## Requirements
 
