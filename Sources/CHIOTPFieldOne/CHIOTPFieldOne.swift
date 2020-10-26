@@ -76,6 +76,16 @@ open class CHIOTPFieldOne: CHIOTPField<CHIOTPFieldOneLabel> {
         didSet { redraw() }
     }
 
+    @IBInspectable
+    public var textFont: UIFont? = .systemFont(ofSize: 15, weight: .regular) {
+        didSet { redraw() }
+    }
+    
+    @IBInspectable
+    public var otpColor: UIColor? = .black {
+          didSet { redraw() }
+      }
+    
     public override func redraw() {
         super.redraw()
         labels.forEach { (label) in
@@ -86,6 +96,8 @@ open class CHIOTPFieldOne: CHIOTPField<CHIOTPFieldOneLabel> {
             label.activeShadowOpacity = Float(activeShadowOpacity)
             label.placeholder = boxPlaceholder
             label.placeholderColor = boxPlaceholderColor
+            label.font = textFont
+            label.textColor = otpColor
         }
     }
 }
